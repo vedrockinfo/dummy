@@ -1,0 +1,46 @@
+.experience{
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+        @include DeviceMaximum1024{
+            grid-template-columns: 1fr;
+        }
+        & > div{
+            background: $colorPrimaryVariant;
+            padding: 2.4rem 5rem;
+            border-radius: 2rem;
+            border: 1px solid transparent;
+            transition: $transition;
+            @include DeviceMaximum768{
+                padding: 2.5rem 2rem;
+            }
+            &:hover{
+                background: transparent;
+                border-color: $colorPrimaryVariant;
+            }
+            h3{
+                text-align: center;
+                color: $colorPrimary;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        @include DeviceMaximum768{
+            row-gap: 0;
+        }
+    }
+    &__details{
+            display: flex;
+            gap: 1rem;
+            align-items: baseline;
+    }
+    &__details-icon{
+        color: $colorPrimary;
+        margin-top: 3rem;
+    }
+}

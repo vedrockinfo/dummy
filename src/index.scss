@@ -1,0 +1,20 @@
+@import "./scss/abstract/functions";
+@import "./scss/abstract/mixins";
+@import "./scss/abstract/responsive";
+@import "./scss/abstract/variables";
+
+@import "./scss/base/animation";
+@import "./scss/base/base";
+@import "./scss/base/fonts";
+@import "./scss/base/typography";
+@import "./scss/base/utilities";
+
+@import "./scss/components/about";
+@import "./scss/components/contact";
+@import "./scss/components/experience";
+@import "./scss/components/footer";
+@import "./scss/components/header";
+@import "./scss/components/nav";
+@import "./scss/components/portfolio";
+@import "./scss/components/services";
+@import "./scss/components/testimonials";

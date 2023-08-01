@@ -1,0 +1,28 @@
+.testimonials__container{
+    width: 40%;
+    @include DeviceMaximum1024{
+        width: 80%;
+    }
+    @include DeviceMaximum768{
+        width: 90%;
+    }
+    .testimonial{
+    .client__avatar{
+        width: 4rem;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 0.4rem solid $colorPrimaryVariant;
+    }
+    background: $colorBGVariant;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    user-select: none;
+}
+.avatar__review{
+    color: $colorLight;
+    display: block;
+}
+}

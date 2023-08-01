@@ -1,0 +1,62 @@
+.container{
+    width: $containerWidthBig;
+    margin: 0 auto;
+    @include DeviceMaximum1024{
+        width: $containerWidthMedium;
+    }
+    @include DeviceMaximum768{
+        width: $containerWidthSmall;
+    }
+}
+
+section {
+    margin-top: 8rem;
+    @include DeviceMaximum1024{
+        margin-top: 6rem;
+    }
+    @include DeviceMaximum768{
+        margin-top: 3rem;
+    }
+}
+
+section > h2, section > h5{
+    text-align: center;
+    color: $colorLight;
+}
+section > h2{
+    color: $colorPrimary;
+    margin-bottom: 3rem;
+    @include DeviceMaximum768{
+        margin-bottom: 2rem;
+    }
+}
+.text-light{
+    color: $colorLight;
+}
+a{
+    color: $colorPrimary;
+    transition: $transition;
+    &:hover{
+        color: $colorWhite;
+    }
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: $colorPrimary;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid $colorPrimary;
+    transition: all 0.4s;
+    &:hover{
+        background: $colorWhite;
+        color: $colorBG;
+        border: transparent;
+    }
+}
+.btn-primary{
+    background: $colorPrimary;
+    color: $colorBG;
+}

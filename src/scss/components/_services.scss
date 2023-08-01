@@ -1,0 +1,45 @@
+.services{
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        @include DeviceMaximum1024{
+            grid-template-columns: 1fr;
+        }
+        .service{
+            background: $colorPrimaryVariant;
+            border-radius: 0 0 2rem 2rem;
+            border: 1px solid $colorPrimary;
+            height: fit-content;
+            transition: $transition;
+            &:hover{
+                background: transparent;
+                border-color: $colorPrimaryVariant;
+            }
+            &__head{
+                background: $colorPrimary;
+                padding: 2rem;
+                border-radius: 0 0 2rem 2rem;
+                box-shadow: rgba(#000, $alpha: 0.1);
+                h3{
+                    text-align: center;
+                }
+            }
+            &__list{
+                padding: 2rem;
+                li{
+                    display: flex;
+                    gap: 1rem;
+                    margin-bottom: 0.8rem;
+                    p{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            &__list-icon{
+                color: $colorPrimary;
+                margin-top: 3px;
+            }
+        }
+    }
+}

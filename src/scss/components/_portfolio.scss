@@ -1,0 +1,37 @@
+.portfolio{
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        @include DeviceMaximum1024{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.8rem;
+        }
+        @include DeviceMaximum576{
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+    }
+    &__item{
+        background: $colorPrimaryVariant;
+        padding: 1.3rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: $transition;
+        &:hover{
+            background: transparent;
+            border-color: $colorPrimaryVariant;
+        }
+        h3{
+            margin: 1.3rem 0 2rem;
+        }
+    }
+    &__item-cta{
+        display: flex;
+        margin-bottom: 1rem;
+        gap: 1rem;
+        @include DeviceMaximum576{
+            justify-content: center;
+        }
+    }
+}
