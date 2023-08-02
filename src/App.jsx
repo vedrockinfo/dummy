@@ -1,4 +1,5 @@
 import React from 'react'
+import TopHeader from "./components/topheader/topHeader";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -9,9 +10,11 @@ import Testimonial from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+
 const App = () => {
   return (
     <div>
+      <TopHeader />
       <Header />
       <Nav />
       <About />
