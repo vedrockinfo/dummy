@@ -391,15 +391,6 @@ a.scroll__down {
   }
 }
 
-.topHeader__row {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0 10px 0; 
-}
-.topHeader__row a{
-  color: #fff;
-}
-
 nav {
   background: rgba(0, 0, 0, 0.3);
   max-width: -moz-max-content;
@@ -431,6 +422,12 @@ nav a:hover {
 nav .active {
   background: #1f1f38;
   color: #ffffff;
+}
+
+.topHeader__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 10px 0;
 }
 
 .portfolio__container {

@@ -12,7 +12,7 @@ const topHeader = () => {
             <div className='navbar'>
                 <ul className='nav-items'>
                     <li className='nav-links'>
-                        <Link to="/quickdesign">Quick Design</Link>
+                        <Link to="/quickdesign" className='btn'>Quick Design</Link>
                     </li>
                 </ul>
             </div>

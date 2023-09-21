@@ -29,3 +29,9 @@ nav{
         color: $colorWhite;
     }
 }
+
+.topHeader__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 10px 0; 
+}
