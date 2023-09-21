@@ -7,14 +7,13 @@ const topHeader = () => {
       <div className='container topHeader__container'>
         <div className='topHeader__row'>
             <div className='logo'>
-                <h1>vedant</h1>
-                <span>frontend Developer</span>
+                <Link to="/home">Vedant</Link>
             </div>
             <div className='navbar'>
                 <ul className='nav-items'>
-                    {/* <li className='nav-links'>
-                        <Link>Quick Design</Link>
-                    </li> */}
+                    <li className='nav-links'>
+                        <Link to="/quickdesign">Quick Design</Link>
+                    </li>
                 </ul>
             </div>
         </div>
