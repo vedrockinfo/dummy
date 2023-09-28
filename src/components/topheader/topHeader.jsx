@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from "../../assets/logo.png"
 
 const topHeader = () => {
   return (
@@ -7,14 +8,13 @@ const topHeader = () => {
       <div className='container topHeader__container'>
         <div className='topHeader__row'>
             <div className='logo'>
-                <h1>vedant</h1>
-                <span>frontend Developer</span>
+                <Link to="/home"><img src={Logo} /></Link>
             </div>
             <div className='navbar'>
                 <ul className='nav-items'>
-                    {/* <li className='nav-links'>
-                        <Link>Quick Design</Link>
-                    </li> */}
+                    <li className='nav-links'>
+                        <Link to="/quickdesign" className='btn'>Quick Design</Link>
+                    </li>
                 </ul>
             </div>
         </div>

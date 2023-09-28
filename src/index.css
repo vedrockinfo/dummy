@@ -424,6 +424,16 @@ nav .active {
   color: #ffffff;
 }
 
+.topHeader__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 10px 0;
+  align-items: center;
+}
+.topHeader__row .logo img {
+  max-width: 100px;
+}
+
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
