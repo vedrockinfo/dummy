@@ -323,19 +323,46 @@ a:hover {
 
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 header .header__container {
-  text-align: center;
   height: 100%;
   position: relative;
+}
+header .header__container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .header__container .row .col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+header .header__container .row .col-6 span {
+  font-size: 24px;
+  font-weight: 200;
+  color: #a5a5af;
+}
+header .header__container .row .col-6 h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+}
+header .header__container .row .col-6 h5.text-light {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
 }
 
 .cta {
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.2rem;
 }
 
@@ -364,12 +391,7 @@ header .header__container {
   background: linear-gradient(#4db5ff, transparent);
   width: 22rem;
   height: 30rem;
-  position: absolute;
-  margin-top: 3rem;
-  left: 50%;
-  transform: translate(-50%, 0);
-  border-radius: 12rem 12rem 0 0;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  margin-left: auto;
 }
 @media screen and (max-width: 371px) {
   .me {
@@ -453,8 +475,8 @@ nav .active {
 }
 .portfolio__item {
   background: rgba(77, 181, 255, 0.4);
-  padding: 1.3rem;
-  border-radius: 2rem;
+  padding: 0;
+  border-radius: 0 0 2rem 2rem;
   border: 1px solid transparent;
   transition: all 400ms ease;
 }
@@ -464,16 +486,14 @@ nav .active {
 }
 .portfolio__item h3 {
   margin: 1.3rem 0 2rem;
+  padding: 0 2rem;
+  text-align: center;
 }
 .portfolio__item-cta {
   display: flex;
   margin-bottom: 1rem;
   gap: 1rem;
-}
-@media (max-width: 576px) {
-  .portfolio__item-cta {
-    justify-content: center;
-  }
+  justify-content: center;
 }
 
 .services__container {

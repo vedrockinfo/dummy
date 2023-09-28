@@ -1,17 +1,44 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 2rem;
     overflow: hidden;
     .header__container{
-        text-align: center;
         height: 100%;
         position: relative;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .col-6{
+                flex: 0 0 50%;
+                max-width: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                span {
+                    font-size: 24px;
+                    font-weight: 200;
+                    color: #a5a5af;
+                }
+                h1{
+                    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+                }
+                h5.text-light{
+                    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+                }
+            }
+        }
     }
 }
 .cta{
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1.2rem;
 }
 .header__socials{
@@ -37,12 +64,7 @@ header{
     background: linear-gradient($colorPrimary, transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;
-    margin-top: 3rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    margin-left: auto;
     @media screen and (max-width:371px) {
         width: 100%;
     }
