@@ -38,24 +38,7 @@ font-weight: bold;
     justify-content: flex-start;
     gap: 1.2rem;
 }
-.header__socials{
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.7rem;
-    @include DeviceMaximum768{
-        display: none;
-    }
-    &::after{
-        content: "";
-        height: 2rem;
-        width: 1px;
-        background:$colorPrimary;
-    }
-}
+
 
 .me{
     background: linear-gradient($colorPrimary, transparent);
@@ -64,17 +47,5 @@ font-weight: bold;
     margin-left: auto;
     @media screen and (max-width:371px) {
         width: 100%;
-    }
-}
-a.scroll__down {
-    position: fixed;
-    right: 0;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-size: 0.9rem;
-    font-weight: 200;
-    
-    @include DeviceMaximum768{
-        display: none;
     }
 }
