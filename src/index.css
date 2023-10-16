@@ -19,10 +19,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #1f1f38;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #333;
   line-height: 1.7;
-  background-image: url(./assets/bg-texture.png);
 }
 
 img {
@@ -38,21 +37,6 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 2.5rem;
-}
-
-.container {
-  width: 75%;
-  margin: 0 auto;
-}
-@media (max-width: 1024px) {
-  .container {
-    width: 86%;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-  }
 }
 
 section {
@@ -71,7 +55,7 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: #333;
 }
 
 section > h2 {
@@ -85,7 +69,7 @@ section > h2 {
 }
 
 .text-light {
-  color: rgba(255, 255, 255, 0.6);
+  color: #333;
 }
 
 a {
@@ -181,7 +165,7 @@ a:hover {
   font-size: 1rem;
 }
 .about__card small {
-  color: rgba(255, 255, 255, 0.6);
+  color: #333;
 }
 .about__card:hover {
   background: transparent;
@@ -194,7 +178,7 @@ a:hover {
 }
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: #333;
 }
 @media (max-width: 1024px) {
   .about__content p {
@@ -216,11 +200,6 @@ a:hover {
 @media (max-width: 1024px) {
   .contact__container {
     grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 768px) {
-  .contact__container {
-    width: 90%;
   }
 }
 .contact__container form {
@@ -323,8 +302,10 @@ a:hover {
 
 header {
   height: 100vh;
-  padding-top: 2rem;
   overflow: hidden;
+  background: url(./assets/header-background.jpg) right top no-repeat;
+  background-size: cover;
+  text-align: left;
 }
 header .header__container {
   height: 100%;
@@ -334,25 +315,20 @@ header .header__container .row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  height: 100%;
 }
-header .header__container .row .col-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-header .header__container .row .col-6 span {
+header .header__container .row span {
   font-size: 24px;
   font-weight: 200;
   color: #a5a5af;
 }
-header .header__container .row .col-6 h1 {
+header .header__container .row h1 {
   font-size: 80px;
   text-transform: uppercase;
   line-height: 1;
   font-weight: bold;
 }
-header .header__container .row .col-6 h5.text-light {
+header .header__container .row h5.text-light {
   font-size: 40px;
   text-transform: uppercase;
   line-height: 1;
@@ -400,7 +376,7 @@ header .header__container .row .col-6 h5.text-light {
 }
 
 a.scroll__down {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 5rem;
   transform: rotate(90deg);
@@ -446,6 +422,14 @@ nav .active {
   color: #ffffff;
 }
 
+.topHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
 .topHeader__row {
   display: flex;
   justify-content: space-between;
@@ -454,6 +438,18 @@ nav .active {
 }
 .topHeader__row .logo img {
   max-width: 100px;
+}
+.topHeader__row .toggle {
+  position: relative;
+}
+.topHeader__row .toggle span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+}
+.topHeader__row .toggle span:nth-child(2) {
+  margin: 7px 0;
 }
 
 .portfolio__container {

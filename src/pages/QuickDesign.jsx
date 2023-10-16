@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import TopHeader from "../components/topheader/topHeader";
 
 function QuickDesign() {
   return (
-    <div>QuickDesign</div>
+    <div>
+      <TopHeader />
+    </div>
   )
 }
 

@@ -1,14 +1,3 @@
-.container{
-    width: $containerWidthBig;
-    margin: 0 auto;
-    @include DeviceMaximum1024{
-        width: $containerWidthMedium;
-    }
-    @include DeviceMaximum768{
-        width: $containerWidthSmall;
-    }
-}
-
 section {
     margin-top: 8rem;
     @include DeviceMaximum1024{
@@ -21,7 +10,7 @@ section {
 
 section > h2, section > h5{
     text-align: center;
-    color: $colorLight;
+    color: $colorText;
 }
 section > h2{
     color: $colorPrimary;
@@ -31,7 +20,7 @@ section > h2{
     }
 }
 .text-light{
-    color: $colorLight;
+    color: $colorText;
 }
 a{
     color: $colorPrimary;

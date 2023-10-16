@@ -7,9 +7,6 @@
         @include DeviceMaximum1024{
             grid-template-columns: 1fr;
         }
-        @include DeviceMaximum768{
-            width: $containerWidthSmall;
-        }
         form{
             display: flex;
             flex-direction: column;

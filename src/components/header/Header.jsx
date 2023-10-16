@@ -8,17 +8,12 @@ const Header = () => {
    <header>
     <div className="container header__container">
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-12">
           <span>Hello I am</span>
         <h1>Vedant</h1>
         <h5 className="text-light">Frontent Developer</h5>
         <CTA />
 
-        </div>
-        <div className="col-6">
-        <div className="me">
-        <img src={ME} alt='Vedant Gupta' />
-      </div>
         </div>
       </div>
       

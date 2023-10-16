@@ -29,7 +29,13 @@ nav{
         color: $colorWhite;
     }
 }
-
+.topHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
 .topHeader__row {
     display: flex;
     justify-content: space-between;
@@ -38,6 +44,18 @@ nav{
     .logo{
         img{
             max-width: 100px;
+        }
+    }
+    .toggle{
+        position: relative;
+        span{
+            display: block;
+            width: 30px;
+            height: 2px;
+            background-color: $colorWhite;
+            &:nth-child(2){
+                margin: 7px 0;
+            }
         }
     }
 }

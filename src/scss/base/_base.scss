@@ -17,10 +17,9 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: $colorBG;
-    color: $colorWhite;
+    background-color: $colorWhite;
+    color: $colorText;
     line-height: 1.7;
-    background-image: url(./assets/bg-texture.png);
 }
 img{
     display: block;
