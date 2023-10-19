@@ -1,0 +1,15 @@
+.services{
+    .web-cards{
+        background: $colorPrimary;
+        color: $colorBody;
+        text-align: center;
+    padding: 4rem 2rem;
+    transition: all 0.5s;
+    &:hover{
+        transform: translateY(-10px);
+    }
+        svg{
+            font-size: 3rem;
+        }
+    }
+}

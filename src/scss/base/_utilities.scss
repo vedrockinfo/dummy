@@ -1,0 +1,47 @@
+.mt-large{
+    margin-top: 7rem;
+    @include DeviceMaximum1024{
+        margin-top: 5rem;
+    }
+    @include DeviceMaximum992{
+        margin-top: 4rem;
+    }
+    @include DeviceMaximum768{
+        margin: 3rem;
+    }
+}
+.our-heads{
+    position: relative;
+    .overlay-heading{
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        top: -50px;
+        width: 100%;
+        font-size: 120px;
+        line-height: 120px;
+        color: $colorWhite;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: .04em;
+        text-align: center;
+        white-space: nowrap;
+        pointer-events: none;
+        opacity: .05;
+    }
+    .space-one{
+        display: inline-block;
+        height: 5px;
+    }
+}
+.primary-heading{
+        font-size: 4rem;
+        color:  $colorPrimary;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+.content-para{
+    p{
+
+    }
+}

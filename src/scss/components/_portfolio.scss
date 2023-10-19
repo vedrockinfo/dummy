@@ -1,0 +1,36 @@
+.portfolio-tabs{
+    margin-top: 3rem;
+    .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    .tab{
+        background: rgba($colorWhite, $alpha: 0.5);
+        color: $colorWhite;
+        cursor: pointer;
+        text-align: center;
+        padding: 1rem;
+        font-weight: 700;
+    font-size: 1.5rem;
+        &.active{
+            background: $colorPrimary;
+            color: $colorBody;
+            position: relative;
+            &::before{
+                content: "";
+                background: $colorPrimary;
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%) rotate(45deg);
+
+            }
+        }
+    }
+    .tab-content {
+    padding: 4rem 1rem 1rem 1rem;
+}
+}
+}
