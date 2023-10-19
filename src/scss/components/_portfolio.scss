@@ -1,36 +1,98 @@
-.portfolio-tabs{
-    margin-top: 3rem;
-    .tabs {
+.projectGrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-    .tab{
-        background: rgba($colorWhite, $alpha: 0.5);
-        color: $colorWhite;
-        cursor: pointer;
-        text-align: center;
-        padding: 1rem;
-        font-weight: 700;
-    font-size: 1.5rem;
-        &.active{
-            background: $colorPrimary;
-            color: $colorBody;
+    gap: 3rem;
+    .explore {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    &__Projects{
+        position: relative;
+        &:hover{
+            .ss::before{
+                opacity: 1;
+                height: 100%;
+            }
+            .highlights{
+                bottom: 2rem;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .ss{
             position: relative;
             &::before{
                 content: "";
-                background: $colorPrimary;
-                width: 20px;
-                height: 20px;
+                background: rgba(#000000, $alpha: 0.7);
                 position: absolute;
-                bottom: -10px;
-                left: 50%;
-                transform: translateX(-50%) rotate(45deg);
-
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                opacity: 0;
+                transition: all 0.5s;
             }
         }
+        .highlights {
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 1rem;
+    transition: all 0.5s;
+    h2.tertiaryHeading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+}
+p{
+    color: #fff;
+    font-size: 1rem;
+}
+}
     }
-    .tab-content {
-    padding: 4rem 1rem 1rem 1rem;
 }
+.tabs-container {
+  width: 80%;
+  margin: 0 auto;
 }
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0;
+  transition: 0.3s ease;
+  background-color: $colorBG;
+}
+
+.tab.active {
+  background-color: $colorPrimary;
+  color: white;
+  position: relative;
+  &::before{
+    content: "";
+    background: $colorPrimary;
+    position: absolute;
+    bottom: -10px;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+  }
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.content {
+  padding: 4rem 1rem 1rem 1rem;
 }

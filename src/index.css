@@ -90,6 +90,42 @@ h1 {
   text-transform: capitalize;
 }
 
+a.btn-two {
+  font-size: 15px;
+  padding: 10px 24px;
+  line-height: 1;
+  text-transform: capitalize;
+  border: 1.9px solid #ffffff;
+  color: #ffffff;
+  transition: 0.4s ease;
+  display: inline-block;
+  text-decoration: none;
+  background: transparent;
+  transition: all 0.5s;
+}
+a.btn-two:hover {
+  background: #62c557;
+  border-color: #62c557;
+}
+
+a.btn-one {
+  font-size: 15px;
+  padding: 10px 24px;
+  line-height: 1;
+  text-transform: capitalize;
+  border: 1.9px solid #62c557;
+  color: #ffffff;
+  background: #62c557;
+  transition: 0.4s ease;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a.btn-one:hover {
+  background: transparent;
+  border-color: #ffffff;
+}
+
 .about-me .img-fluid {
   max-height: 30rem;
 }
@@ -263,18 +299,6 @@ header {
   text-align: left;
   position: relative;
 }
-header::before {
-  content: "";
-  background-image: url(./assets/hero-overlay.jpg);
-  background-size: cover;
-  background-position: top;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99;
-}
 header .header__container {
   height: 100%;
   position: relative;
@@ -415,39 +439,101 @@ nav .active {
   margin: 7px 0;
 }
 
-.portfolio-tabs {
-  margin-top: 3rem;
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
-.portfolio-tabs .tabs {
+.projectGrid .explore {
+  text-align: center;
+  margin-top: 2rem;
+}
+.projectGrid__Projects {
+  position: relative;
+}
+.projectGrid__Projects:hover .ss::before {
+  opacity: 1;
+  height: 100%;
+}
+.projectGrid__Projects:hover .highlights {
+  bottom: 2rem;
+  opacity: 1;
+  visibility: visible;
+}
+.projectGrid__Projects .ss {
+  position: relative;
+}
+.projectGrid__Projects .ss::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.projectGrid__Projects .highlights {
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0 1rem;
+  transition: all 0.5s;
+}
+.projectGrid__Projects .highlights h2.tertiaryHeading {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
+}
+.projectGrid__Projects .highlights p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.tabs-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
 }
-.portfolio-tabs .tabs .tab {
-  background: rgba(255, 255, 255, 0.5);
-  color: #ffffff;
+
+.tab {
   cursor: pointer;
-  text-align: center;
   padding: 1rem;
-  font-weight: 700;
-  font-size: 1.5rem;
+  border-radius: 0;
+  transition: 0.3s ease;
+  background-color: #303236;
 }
-.portfolio-tabs .tabs .tab.active {
-  background: #62c557;
-  color: #242425;
+
+.tab.active {
+  background-color: #62c557;
+  color: white;
   position: relative;
 }
-.portfolio-tabs .tabs .tab.active::before {
+.tab.active::before {
   content: "";
   background: #62c557;
-  width: 20px;
-  height: 20px;
   position: absolute;
   bottom: -10px;
+  width: 20px;
+  height: 20px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
 }
-.portfolio-tabs .tabs .tab-content {
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.content {
   padding: 4rem 1rem 1rem 1rem;
 }
 

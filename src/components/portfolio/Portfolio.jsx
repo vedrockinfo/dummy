@@ -1,34 +1,316 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Tabs from './Tabs';
-import Port1 from '../../assets/vedant-project-01.jpg';
-import Port2 from '../../assets/vedant-project-02.jpg';
-import Port3 from '../../assets/vedant-project-03.jpg';
-import Port4 from '../../assets/vedant-project-04.jpg';
-import Port5 from '../../assets/vedant-project-05.jpg';
-import Port6 from '../../assets/vedant-project-06.jpg';
+import React, { useState } from 'react';
+import CIS from "../../assets/project-01.jpg"
 
-const tabData = [
-  { id: 1, label: 'Jaipur 96498 54220', content: '<h1>Custom HTML for Tab 1</h1><p>More content...</p>' },
-  { id: 2, label: 'Ruchi Khand 95800 58888', content: 'Content for Tab 2' },
-  { id: 3, label: 'Barabanki 7408403000', content: 'Content for Tab 3' },
-];
 
-const Portfolio = () => {
+const MyTabsComponent = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
-    <section id='portfolio' className='portfolio mt-large'>
+    <div className="portfolio mt-large" id='portfolio'>
       <div className="container">
         <div className="our-heads">
-          <h6 className="overlay-heading">portfolio</h6>
+          <h6 className="overlay-heading">skills</h6>
           <h2 className="primary-heading text-center">lorem is u</h2>
           <div className="space-one"></div>
         </div>
-        <div className="portfolio-tabs">
-          <Tabs tabs={tabData} />
+      </div>
+      <div className="tabs-container">
+        <div className="tabs">
+          <div
+            className={`tab ${activeTab === 0 ? 'active' : ''}`}
+            onClick={() => setActiveTab(0)}
+          >
+            Tab 1
+          </div>
+          <div
+            className={`tab ${activeTab === 1 ? 'active' : ''}`}
+            onClick={() => setActiveTab(1)}
+          >
+            Tab 2
+          </div>
+          <div
+            className={`tab ${activeTab === 2 ? 'active' : ''}`}
+            onClick={() => setActiveTab(2)}
+          >
+            Tab 3
+          </div>
+        </div>
+
+        <div className="tab-content">
+          {activeTab === 0 && (
+            <div className="content">
+              <div className="projectGrid">
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {activeTab === 1 && (
+            <div className="content">
+              <div className="projectGrid">
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {activeTab === 2 && (
+            <div className="content">
+              <div className="projectGrid">
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  );
+};
 
-export default Portfolio
+export default MyTabsComponent;
