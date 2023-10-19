@@ -2,11 +2,23 @@
     .img-fluid{
         max-height: 30rem;
     }
+    .our-heads{
+        @include DeviceMaximum768{
+            margin-top: 3.5rem;
+            h2{
+                text-align: center;
+            }
+        }
+    }
     .experience-grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 3rem;
         margin-top: 2rem;
+        @include DeviceMaximum768{
+            grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+        }
         .card{
             background: transparent;
             border: 2px solid $colorPrimary;

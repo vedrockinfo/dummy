@@ -7,7 +7,7 @@
         margin-top: 4rem;
     }
     @include DeviceMaximum768{
-        margin: 3rem;
+        margin-top: 3rem;
     }
 }
 .our-heads{
@@ -28,6 +28,10 @@
         white-space: nowrap;
         pointer-events: none;
         opacity: .05;
+        @include DeviceMaximum768{
+            text-align: left;
+    font-size: 48px;
+        }
     }
     .space-one{
         display: inline-block;
@@ -35,10 +39,16 @@
     }
 }
 .primary-heading{
-        font-size: 4rem;
+        font-size: 3rem;
         color:  $colorPrimary;
         font-weight: 700;
         text-transform: capitalize;
+        @include DeviceMaximum768{
+            font-size: 2.2rem;
+        }
+        span{
+            color: $colorWhite;
+        }
     }
 .content-para{
     p{

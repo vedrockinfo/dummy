@@ -15,7 +15,7 @@ const About = () => {
           <div className='col-md-6'>
             <div className="our-heads">
               <h6 className="overlay-heading">about</h6>
-              <h2 className="primary-heading">lorem is u</h2>
+              <h2 className="primary-heading">who <span>am i ?</span></h2>
               <div className="space-one"></div>
               <div className="content-para">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint corrupti, laborum, odit nemo quis a quas rem tenetur, dolor eveniet? Ipsa suscipit officia doloremque sit eaque. Quaerat, delectus minima.</p>
@@ -56,7 +56,7 @@ const About = () => {
         <div className="row mt-large">
           <div className="our-heads">
             <h6 className="overlay-heading">skills</h6>
-            <h2 className="primary-heading text-center">lorem is u</h2>
+            <h2 className="primary-heading text-center">Ready to <span>Serve</span></h2>
             <div className="space-one"></div>
           </div>
           <div className="content-para text-center">

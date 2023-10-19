@@ -3,13 +3,32 @@
         background: $colorPrimary;
         color: $colorBody;
         text-align: center;
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     transition: all 0.5s;
+    border: 2px solid $colorPrimary;
+    @include DeviceMaximum768{
+        padding: 1.5rem;
+    }
     &:hover{
         transform: translateY(-10px);
+        background: transparent;
+        border-color: $colorWhite;
+        border-radius: 0.8rem;
+        svg, h2, p{
+            color: $colorWhite;
+        }
     }
         svg{
             font-size: 3rem;
+        }
+        h2.secondaryHeading {
+            margin-top: 1rem;
+            font-weight: 700;
+        }
+    }
+    .row{
+        @include DeviceMaximum768{
+            gap: 1.5rem;
         }
     }
 }

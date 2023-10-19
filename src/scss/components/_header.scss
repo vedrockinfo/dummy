@@ -13,21 +13,28 @@ header{
             flex-wrap: wrap;
             align-items: center;
             height: 100%;
+            @include DeviceMaximum768{
+                .col-md-12{
+                    text-align: center;
+                }
+            }
             span {
                 font-size: 24px;
                 font-weight: 200;
-                color: #a5a5af;
+                color: $colorWhite;
             }
             h1{
                 font-size: 80px;
 text-transform: uppercase;
+color: $colorText;
 line-height: 1;
 font-weight: bold;
             }
-            h5.text-light{
+            h5{
                 font-size: 40px;
 text-transform: uppercase;
 line-height: 1;
+color: $colorPrimary;
 font-weight: bold;
             }
         }
@@ -38,6 +45,9 @@ font-weight: bold;
     display: flex;
     justify-content: flex-start;
     gap: 1.2rem;
+    @include DeviceMaximum768{
+        justify-content: center;
+    }
 }
 
 

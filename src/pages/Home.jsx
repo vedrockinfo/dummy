@@ -21,7 +21,6 @@ function Home() {
       <Services />
       <Portfolio />
       {/* <Testimonial /> */}
-      <Contact />
       <Footer />
     </div>
   )

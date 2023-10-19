@@ -1,8 +1,9 @@
 import React from 'react';
+import Contact from '../contact/Contact';
 
 const Footer = () => {
   return (
-    <div className='footer mt-large'>
+    <div className='footer mt-large' id='footer'>
       <div className="container">
         <div className="our-heads">
           <h6 className="overlay-heading">contacts</h6>
@@ -10,64 +11,36 @@ const Footer = () => {
         </div>
         <div className="row">
           <div className="col-lg-6 col-md-12">
-            <h2 className="primary-heading text-center">lorem is u</h2>
+            <h2 className="primary-heading text-center">Get in <span>Touch</span></h2>
             <div className="space-one"></div>
             <div className="footer-contact-grid">
               <div className="card-box">
                 <div className="icon"></div>
-                <div class="name">Address</div>
+                <div class="name">Call Us</div>
                 <div className="content-para">
-                  <p>Lucknow</p>
+                  <p><a href="tel:+917905359039">+91 7905 359 039</a></p>
+                </div>
+              </div>
+              <div className="card-box">
+                <div className="icon"></div>
+                <div class="name">Email Us</div>
+                <div className="content-para">
+                  <p><a href="mailto:frontendesigner@gmail.com">frontendesigner@gmail.com</a></p>
                 </div>
               </div>
               <div className="card-box">
                 <div className="icon"></div>
                 <div class="name">Address</div>
                 <div className="content-para">
-                  <p>Lucknow</p>
-                </div>
-              </div>
-              <div className="card-box">
-                <div className="icon"></div>
-                <div class="name">Address</div>
-                <div className="content-para">
-                  <p>Lucknow</p>
-                </div>
-              </div>
-              <div className="card-box">
-                <div className="icon"></div>
-                <div class="name">Address</div>
-                <div className="content-para">
-                  <p>Lucknow</p>
+                  <p className='text-white'>Sector-C Jankipuram Lucknow, Uttar Pradesh, India<br />Pin Code - 226021</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
-            <h2 className="primary-heading text-center">lorem is u</h2>
+            <h2 className="primary-heading text-center">Contact <span>Us</span></h2>
             <div className="space-one"></div>
-            <form action="">
-              <div className="row">
-                <div className="col-lg-6 col-md-12">
-                  <input type="text" name='name' className="form-control" placeholder='Full Name' />
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <input type="text" name='mobile' className="form-control" placeholder='Phone No.' />
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <input type="text" name='email' className="form-control" placeholder='Email' />
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <input type="text" className="form-control" placeholder='Full Name' />
-                </div>
-                <div className="col-lg-12 col-md-12">
-                  <textarea name="enquiry" id="" placeholder='Your Message'></textarea>
-                </div>
-                <div className="col-lg-12 col-md-12">
-                  <div className='submit-btn'><button type="submit">send message</button></div>
-                </div>
-              </div>
-            </form>
+              <Contact />
           </div>
         </div>
       </div>

@@ -9,8 +9,8 @@ const MyTabsComponent = () => {
     <div className="portfolio mt-large" id='portfolio'>
       <div className="container">
         <div className="our-heads">
-          <h6 className="overlay-heading">skills</h6>
-          <h2 className="primary-heading text-center">lorem is u</h2>
+          <h6 className="overlay-heading">portfolio</h6>
+          <h2 className="primary-heading text-center">recent <span>work</span></h2>
           <div className="space-one"></div>
         </div>
       </div>
@@ -20,19 +20,19 @@ const MyTabsComponent = () => {
             className={`tab ${activeTab === 0 ? 'active' : ''}`}
             onClick={() => setActiveTab(0)}
           >
-            Tab 1
+            Static Website
           </div>
           <div
             className={`tab ${activeTab === 1 ? 'active' : ''}`}
             onClick={() => setActiveTab(1)}
           >
-            Tab 2
+            Wordpress Website
           </div>
           <div
             className={`tab ${activeTab === 2 ? 'active' : ''}`}
             onClick={() => setActiveTab(2)}
           >
-            Tab 3
+            React JS / Next JS
           </div>
         </div>
 

@@ -2,6 +2,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    @media screen and (min-width:768px) and (max-width:1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    }
+    @media screen and (max-width:767.9px) {
+      grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    .explore{
+      margin-top: 1rem;
+    }
+    }
     .explore {
             text-align: center;
             margin-top: 2rem;
@@ -63,6 +74,9 @@ p{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2px;
+    @include DeviceMaximum768{
+      grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .tab {
@@ -71,6 +85,7 @@ p{
   border-radius: 0;
   transition: 0.3s ease;
   background-color: $colorBG;
+  text-align: center;
 }
 
 .tab.active {
@@ -86,6 +101,9 @@ p{
     height: 20px;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
+    @include DeviceMaximum768{
+      content: none;
+    }
   }
 }
 

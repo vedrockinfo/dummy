@@ -1,12 +1,18 @@
 .footer{
     .primary-heading{
-        text-align: left!important;
+        @include DeviceMinimum768{
+            text-align: left!important;
+        }
     }
     .footer-contact-grid{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 3rem;
         row-gap: 1.5rem;
+        margin-top: 3rem;
+        @include DeviceMinimum1200{
+            width: 90%;
+        }
         .card-box{
             // background: rgba(255,255,255,.05);
             background-image: linear-gradient(135deg,#1d1e21 0,#3e4246 100%);
@@ -17,6 +23,13 @@
     box-shadow: 0 0 50px rgba(0,0,0,.2);
     border-radius: 18px;
     transition: all .3s ease 0s;
+    p{
+        margin-bottom: 0;
+    }
+    a{
+        color: $colorWhite;
+        text-decoration: none;
+    }
         }
     }
     .form-control{
@@ -63,6 +76,16 @@
                 font-weight: 700;
             }
         }
+        .overlay-heading{
+            @include DeviceMaximum768{
+                top: -30px;
+            }
+        }
+        .col-lg-6:last-child{
+            h2{
+                margin-top: 3rem;
+            }
+        }
 }
 .footer-copyright{
     background: $colorPrimary;
@@ -84,4 +107,5 @@
         text-transform: capitalize;
     }
 }
+
 }
