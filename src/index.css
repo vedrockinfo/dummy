@@ -493,6 +493,15 @@ nav .active {
   width: 100%;
   z-index: 9;
 }
+.topHeader.scrolled {
+  background-color: #242425;
+}
+.topHeader.scrolled .topHeader__row {
+  padding: 10px 0;
+}
+.topHeader.scrolled .topHeader__row .logo img {
+  max-width: 80px;
+}
 .topHeader .offcanvas {
   background: #242425;
 }
@@ -548,6 +557,7 @@ nav .active {
 }
 .topHeader__row .logo img {
   max-width: 100px;
+  transition: all 400ms ease;
 }
 .topHeader__row .toggle {
   position: relative;
