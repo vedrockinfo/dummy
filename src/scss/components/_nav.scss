@@ -30,22 +30,7 @@ nav{
     }
 }
 .topHeader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9;
-    
-    &.scrolled{
-        background-color: $colorBody;
-        .topHeader__row{
-            padding: 10px 0;
-            .logo img {
-    max-width: 80px;
-}
-        }
-    }
-    .offcanvas {
+   .offcanvas {
     background: $colorBody;
     ul{
         padding: 0;

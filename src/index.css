@@ -486,22 +486,6 @@ nav .active {
   color: #ffffff;
 }
 
-.topHeader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9;
-}
-.topHeader.scrolled {
-  background-color: #242425;
-}
-.topHeader.scrolled .topHeader__row {
-  padding: 10px 0;
-}
-.topHeader.scrolled .topHeader__row .logo img {
-  max-width: 80px;
-}
 .topHeader .offcanvas {
   background: #242425;
 }

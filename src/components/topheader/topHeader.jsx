@@ -10,7 +10,7 @@ const topHeader = () => {
             <div className='logo'>
                 <Link to="/"><img src={Logo} /></Link>
             </div>
-            <a className="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            {/* <a className="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <span></span><span></span><span></span>
             </a>
 
@@ -28,7 +28,7 @@ const topHeader = () => {
                   </li>
               </ul>
   </div>
-</div>
+</div> */}
         </div>
       </div>
     </div>

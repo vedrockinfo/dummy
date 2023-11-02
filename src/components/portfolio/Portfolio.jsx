@@ -14,6 +14,7 @@ import synnergy from "../../assets/synnergy-summit.jpg";
 import Talwar from "../../assets/talwar-clinics.jpg";
 import Yabbit from "../../assets/yabbit.jpg";
 import SatoshiDX from "../../assets/vedant-project-05.jpg";
+import pdr from "../../assets/pdr.jpg";
 
 
 const MyTabsComponent = () => {
@@ -61,11 +62,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">10X Good</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>Because Good Deserves To Grow, A Monthly Digital Publication</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://10xgood.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -74,12 +75,12 @@ const MyTabsComponent = () => {
                       <img src={LeaderConclave} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">Leader Conclave</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <h2 className="tertiaryHeading">World Leader Conclave</h2>
+                      <p>Literacy is a key factor in achieving economic and social development.</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://www.dignityeducation.org/leadersconclave/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -89,11 +90,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Policy Makers</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>Let’s Make the Let’s Make the World in Literate in Literate in 45 Days</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://www.dignityeducation.org/policymaker/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -103,11 +104,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Synergy Summit</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>Making India 100% NIPUN Before the Deadline of 2026/27</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://www.dignityeducation.org/synergysummit/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
@@ -123,11 +124,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Aspyra</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>Trusted Vendors for Medical Imaging (PACS) and Medical Laboratory (LIS) Solutions</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://aspyra.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -137,11 +138,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Devi Sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>ALfA unlocks the power of paired learning, fun activities, and a known-to-unknown pedagogy.</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://disruptiveliteracy.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -150,12 +151,12 @@ const MyTabsComponent = () => {
                       <img src={jtl} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">JTL</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <h2 className="tertiaryHeading">Jack Tars Locker</h2>
+                      <p>Much of my barefoot childhood was spent roaming around the Fremantle waterfront.</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://jacktarslocker.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -164,12 +165,12 @@ const MyTabsComponent = () => {
                       <img src={palmax} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">Palmax</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <h2 className="tertiaryHeading">Palmax Australia</h2>
+                      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://palmexaustralia.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -179,11 +180,11 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Sureland</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>All it takes is a phone call to us to get started, so it doesn’t matter where you live in Australia</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://www.surelend.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -192,12 +193,12 @@ const MyTabsComponent = () => {
                       <img src={Talwar} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">Talwar's Clinic</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <h2 className="tertiaryHeading">Talwar Clinic</h2>
+                      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://talwarskincentre.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -207,11 +208,25 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Yabbit</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring</p>
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://www.yabbit.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={pdr} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">PDR Energy Group</h2>
+                      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://www.pdrenergy.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
@@ -231,7 +246,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://bytescrum.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -245,7 +260,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://app.daytradingwars.com/mobiledemo/MainLandingPage" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
