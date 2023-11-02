@@ -1,5 +1,19 @@
 import React, { useState } from 'react';
-import CIS from "../../assets/project-01.jpg"
+import CIS from "../../assets/project-01.jpg";
+import Bytescrum from "../../assets/bytescrum.jpg";
+import GoodX from "../../assets/10xgood.jpg";
+import Aspyra from "../../assets/aspyra.jpg";
+import DTW from "../../assets/day-trading-wars.jpg";
+import Devi from "../../assets/devi-sansthan.jpg";
+import jtl from "../../assets/jtl.jpg";
+import LeaderConclave from "../../assets/leaderconclave.jpg";
+import palmax from "../../assets/palmax.jpg";
+import policymakers from "../../assets/policymakers.jpg";
+import sureland from "../../assets/sureland.jpg";
+import synnergy from "../../assets/synnergy-summit.jpg";
+import Talwar from "../../assets/talwar-clinics.jpg";
+import Yabbit from "../../assets/yabbit.jpg";
+import SatoshiDX from "../../assets/vedant-project-05.jpg";
 
 
 const MyTabsComponent = () => {
@@ -223,10 +237,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={Bytescrum} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Bytescrum</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -237,10 +251,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={DTW} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Day Trading Wars</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -251,52 +265,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={SatoshiDX} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Satoshi DX</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
