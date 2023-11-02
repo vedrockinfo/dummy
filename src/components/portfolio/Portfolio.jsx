@@ -57,10 +57,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={GoodX} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">10X Good</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -71,10 +71,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={LeaderConclave} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Leader Conclave</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -85,10 +85,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={policymakers} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Policy Makers</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -99,38 +99,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={synnergy} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Synergy Summit</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -147,10 +119,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={Aspyra} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Aspyra</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -161,10 +133,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={Devi} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Devi Sansthan</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -175,10 +147,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={jtl} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">JTL</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -189,10 +161,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={palmax} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Palmax</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -203,10 +175,10 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={sureland} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Sureland</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
@@ -217,10 +189,24 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={CIS} alt="" className="img-fluid" />
+                      <img src={Talwar} alt="" className="img-fluid" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">devi sansthan</h2>
+                      <h2 className="tertiaryHeading">Talwar's Clinic</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={Yabbit} alt="" className="img-fluid" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Yabbit</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, animi.</p>
                     </div>
                   </div>
