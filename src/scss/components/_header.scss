@@ -5,6 +5,9 @@ header{
     background-size: cover;
     text-align: left;
     position: relative;
+    @media screen and (max-width:575.6px) {
+        background-position: 82% 100%;
+    }
     .header__container{
         height: 100%;
         position: relative;
@@ -22,6 +25,9 @@ header{
                 font-size: 24px;
                 font-weight: 200;
                 color: $colorWhite;
+                @media screen and (max-width:575.5px) {
+                    font-size: 20px;
+                }
             }
             h1{
                 font-size: 80px;
@@ -29,6 +35,9 @@ text-transform: uppercase;
 color: $colorText;
 line-height: 1;
 font-weight: bold;
+@media screen and (max-width:575.5px) {
+    font-size: 48px;
+}
             }
             h5{
                 font-size: 40px;
@@ -36,6 +45,10 @@ text-transform: uppercase;
 line-height: 1;
 color: $colorPrimary;
 font-weight: bold;
+
+@media screen and (max-width:575.5px) {
+    font-size: 30px;
+}
             }
         }
     }
@@ -45,6 +58,13 @@ font-weight: bold;
     display: flex;
     justify-content: flex-start;
     gap: 1.2rem;
+    @media screen and (max-width:575.5px) {
+        justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    }
     @include DeviceMaximum768{
         justify-content: center;
     }

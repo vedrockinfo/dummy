@@ -140,6 +140,18 @@ a.btn-one:hover {
   border-color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .about-me .row:first-child {
+    flex-direction: column-reverse;
+  }
+  .about-me .row:first-child .our-heads {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+  }
+  .about-me .row:last-child {
+    margin-top: 0;
+  }
+}
 .about-me .img-fluid {
   max-height: 30rem;
 }
@@ -156,6 +168,11 @@ a.btn-one:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
   margin-top: 2rem;
+}
+@media screen and (max-width: 1399.9px) {
+  .about-me .experience-grid {
+    gap: 1rem;
+  }
 }
 @media (max-width: 768px) {
   .about-me .experience-grid {
@@ -207,14 +224,31 @@ a.btn-one:hover {
     max-width: calc(50% - 2rem);
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575.5px) {
   .circular-grid .circular-counter {
     flex: 0 0 calc(100% - 2rem);
     max-width: calc(100% - 2rem);
   }
 }
+.circular-grid .circular-counter:nth-child(1) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 80%, rgba(255, 255, 255, 0.05) 80%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(2) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 85%, rgba(255, 255, 255, 0.05) 85%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(3) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 60%, rgba(255, 255, 255, 0.05) 60%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(4) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 75%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(5) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 80%, rgba(255, 255, 255, 0.05) 80%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(6) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 70%, rgba(255, 255, 255, 0.05) 70%, rgba(255, 255, 255, 0.05) 100%);
+}
 .circular-grid .circular-counter .circle-mask {
-  border: 10px solid #62c557;
   position: relative;
   text-align: center;
   aspect-ratio: 1;
@@ -222,14 +256,23 @@ a.btn-one:hover {
   display: grid;
   place-content: center;
 }
+.circular-grid .circular-counter .circle-mask::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: #242425;
+  border-radius: 50%;
+}
 .circular-grid .circular-counter .circle-mask .circular-skills {
   color: #ffffff;
   font-weight: 100;
   font-size: 1rem;
+  position: relative;
 }
 .circular-grid .circular-counter .circle-mask h2 {
   font-size: 4rem;
   font-weight: 700;
+  position: relative;
   color: #62c557;
 }
 .circular-grid .circular-counter .circle-mask h2 span {
@@ -253,7 +296,7 @@ a.btn-one:hover {
 }
 @media screen and (min-width: 1400px) {
   .circular-grid .circular-counter .circle-mask {
-    width: 12rem;
+    width: 11rem;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399.9px) {
@@ -350,10 +393,12 @@ a.btn-one:hover {
 .footer .submit-btn button {
   background: transparent;
   color: #ffffff;
-  border: none;
+  border: 1px solid #ffffff;
   font-size: 14px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 30px;
 }
 @media (max-width: 768px) {
   .footer .overlay-heading {
@@ -368,11 +413,21 @@ a.btn-one:hover {
   background: #62c557;
   padding: 1rem 0;
 }
+@media (max-width: 768px) {
+  .footer-copyright {
+    padding: 1rem 0 6rem 0;
+  }
+}
 .footer-copyright p, .footer-copyright a, .footer-copyright li {
   color: #242425;
   font-size: 12px;
   margin-bottom: 0;
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .footer-copyright p, .footer-copyright a, .footer-copyright li {
+    text-align: center;
+  }
 }
 .footer-copyright .footerlinks ul {
   padding: 0;
@@ -380,6 +435,11 @@ a.btn-one:hover {
   display: flex;
   justify-content: flex-end;
   gap: 0.4rem;
+}
+@media (max-width: 768px) {
+  .footer-copyright .footerlinks ul {
+    justify-content: center;
+  }
 }
 .footer-copyright .footerlinks ul a {
   text-decoration: none;
@@ -393,6 +453,11 @@ header {
   background-size: cover;
   text-align: left;
   position: relative;
+}
+@media screen and (max-width: 575.6px) {
+  header {
+    background-position: 82% 100%;
+  }
 }
 header .header__container {
   height: 100%;
@@ -414,12 +479,22 @@ header .header__container .row span {
   font-weight: 200;
   color: #ffffff;
 }
+@media screen and (max-width: 575.5px) {
+  header .header__container .row span {
+    font-size: 20px;
+  }
+}
 header .header__container .row h1 {
   font-size: 80px;
   text-transform: uppercase;
   color: #a9a9a9;
   line-height: 1;
   font-weight: bold;
+}
+@media screen and (max-width: 575.5px) {
+  header .header__container .row h1 {
+    font-size: 48px;
+  }
 }
 header .header__container .row h5 {
   font-size: 40px;
@@ -428,12 +503,27 @@ header .header__container .row h5 {
   color: #62c557;
   font-weight: bold;
 }
+@media screen and (max-width: 575.5px) {
+  header .header__container .row h5 {
+    font-size: 30px;
+  }
+}
 
 .cta {
   margin-top: 2rem;
   display: flex;
   justify-content: flex-start;
   gap: 1.2rem;
+}
+@media screen and (max-width: 575.5px) {
+  .cta {
+    justify-content: center;
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 768px) {
   .cta {
@@ -470,6 +560,11 @@ nav {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
 }
+@media (max-width: 768px) {
+  nav {
+    bottom: 1rem;
+  }
+}
 nav a {
   background: transparent;
   padding: 0.9rem;
@@ -486,6 +581,20 @@ nav .active {
   color: #ffffff;
 }
 
+.topHeader .container {
+  position: relative;
+}
+.topHeader .container .logo {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 575.5px) {
+  .topHeader .container .logo {
+    left: 15px;
+  }
+}
 .topHeader .offcanvas {
   background: #242425;
 }
@@ -708,6 +817,11 @@ nav .active {
 .services .web-cards h2.secondaryHeading {
   margin-top: 1rem;
   font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+  .services .web-cards h2.secondaryHeading {
+    font-size: calc(1rem + 0.9vw);
+  }
 }
 @media (max-width: 768px) {
   .services .row {

@@ -70,10 +70,12 @@
             button{
                 background: transparent;
                 color: $colorWhite;
-                border: none;
+                border: 1px solid $colorWhite;
                 font-size: 14px;
                 text-transform: capitalize;
-                font-weight: 700;
+                font-weight: 400;
+    line-height: 1;
+    padding: 15px 30px;
             }
         }
         .overlay-heading{
@@ -90,11 +92,17 @@
 .footer-copyright{
     background: $colorPrimary;
     padding: 1rem 0;
+    @include DeviceMaximum768{
+        padding: 1rem 0 6rem 0;
+    }
     p, a, li{
         color: $colorBody;
         font-size: 12px;
         margin-bottom: 0;
         font-weight: 500;
+        @include DeviceMaximum768{
+            text-align: center;
+        }
     }
     .footerlinks ul {
     padding: 0;
@@ -102,6 +110,9 @@
     display: flex;
     justify-content: flex-end;
     gap: 0.4rem;
+    @include DeviceMaximum768{
+        justify-content: center;
+    }
     a{
         text-decoration: none;
         text-transform: capitalize;

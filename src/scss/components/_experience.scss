@@ -20,22 +20,60 @@
       flex: 0 0 calc(100% / 2 - 2rem);
     max-width: calc(100% / 2 - 2rem);
     }
-    @media screen and (max-width:575px) {
+    @media screen and (max-width:575.5px) {
       flex: 0 0 calc(100% - 2rem);
     max-width: calc(100% - 2rem);
     }
+    &:nth-child(1){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 80%, rgba($colorWhite, 0.05) 80%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
+    &:nth-child(2){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 85%, rgba($colorWhite, 0.05) 85%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
+    &:nth-child(3){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 60%, rgba($colorWhite, 0.05) 60%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
+    &:nth-child(4){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 75%, rgba($colorWhite, 0.05) 75%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
+    &:nth-child(5){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 80%, rgba($colorWhite, 0.05) 80%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
+    &:nth-child(6){
+      .circle-mask{
+        background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 70%, rgba($colorWhite, 0.05) 70%, rgba($colorWhite, 0.05) 100%);
+      }  
+    }
     .circle-mask{
-      border: 10px solid rgba($colorPrimary, $alpha: 1.0);
       position: relative;
+      &::before{
+        content: "";
+    position: absolute;
+    inset: 10px;
+    background: $colorBody;
+    border-radius: 50%;
+      }
       .circular-skills{
         color: $colorWhite;
         font-weight: 100;
         font-size: 1rem;
+        position: relative;
 
       }
       h2{
         font-size: 4rem;
           font-weight: 700;
+          position: relative;
           color: rgba($colorPrimary, $alpha: 1.0);
           span{
             font-weight: 200;
@@ -60,7 +98,7 @@
       //   border: 10px solid $colorPrimary;
       // }
       @media screen and (min-width:1400px) {
-        width: 12rem;
+        width: 11rem;
       }
     text-align: center;
     @media screen and (min-width:1200px) and (max-width:1399.9px) {
