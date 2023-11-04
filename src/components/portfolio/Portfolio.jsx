@@ -58,7 +58,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={GoodX} alt="" className="img-fluid" />
+                      <img src={GoodX} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">10X Good</h2>
@@ -72,7 +72,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={LeaderConclave} alt="" className="img-fluid" />
+                      <img src={LeaderConclave} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">World Leader Conclave</h2>
@@ -86,7 +86,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={policymakers} alt="" className="img-fluid" />
+                      <img src={policymakers} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Policy Makers</h2>
@@ -100,7 +100,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={synnergy} alt="" className="img-fluid" />
+                      <img src={synnergy} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Synergy Summit</h2>
@@ -120,7 +120,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={Aspyra} alt="" className="img-fluid" />
+                      <img src={Aspyra} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Aspyra</h2>
@@ -134,7 +134,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={Devi} alt="" className="img-fluid" />
+                      <img src={Devi} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Devi Sansthan</h2>
@@ -148,7 +148,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={jtl} alt="" className="img-fluid" />
+                      <img src={jtl} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Jack Tars Locker</h2>
@@ -162,7 +162,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={palmax} alt="" className="img-fluid" />
+                      <img src={palmax} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Palmax Australia</h2>
@@ -176,7 +176,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={sureland} alt="" className="img-fluid" />
+                      <img src={sureland} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Sureland</h2>
@@ -190,7 +190,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={Talwar} alt="" className="img-fluid" />
+                      <img src={Talwar} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Talwar Clinic</h2>
@@ -204,7 +204,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={Yabbit} alt="" className="img-fluid" />
+                      <img src={Yabbit} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Yabbit</h2>
@@ -218,7 +218,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={pdr} alt="" className="img-fluid" />
+                      <img src={pdr} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">PDR Energy Group</h2>
@@ -238,7 +238,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={Bytescrum} alt="" className="img-fluid" />
+                      <img src={Bytescrum} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Bytescrum</h2>
@@ -252,7 +252,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={DTW} alt="" className="img-fluid" />
+                      <img src={DTW} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Day Trading Wars</h2>
@@ -266,7 +266,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={SatoshiDX} alt="" className="img-fluid" />
+                      <img src={SatoshiDX} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Satoshi DX</h2>
