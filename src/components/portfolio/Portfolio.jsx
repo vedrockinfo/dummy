@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CIS from "../../assets/project-01.jpg";
+import CIS from "../../assets/cis-01.jpg";
 import Bytescrum from "../../assets/bytescrum.jpg";
 import GoodX from "../../assets/10xgood.jpg";
 import Aspyra from "../../assets/aspyra.jpg";
@@ -109,6 +109,20 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://www.dignityeducation.org/synergysummit/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={CIS} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">City International School</h2>
+                      <p>Making India 100% NIPUN Before the Deadline of 2026/27</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://resonant-cuchufli-eae440.netlify.app/cis/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
