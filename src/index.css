@@ -39,6 +39,11 @@ h1 {
   font-size: 2.5rem;
 }
 
+.grn-content {
+  color: #62c557;
+  font-weight: 600;
+}
+
 .mt-large {
   margin-top: 7rem;
 }
@@ -190,6 +195,13 @@ a.btn-one:hover {
 }
 .about-me .experience-grid .card svg {
   font-size: 3rem;
+}
+.about-me h6.duration {
+  margin: 15px 0 0 0;
+  font-weight: 600;
+}
+.about-me h6.duration + .content-para p {
+  font-size: 14px;
 }
 
 .circular-grid {

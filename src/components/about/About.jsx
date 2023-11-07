@@ -18,14 +18,16 @@ const About = () => {
               <h2 className="primary-heading">who <span>am i ?</span></h2>
               <div className="space-one"></div>
               <div className="content-para">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint corrupti, laborum, odit nemo quis a quas rem tenetur, dolor eveniet? Ipsa suscipit officia doloremque sit eaque. Quaerat, delectus minima.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi accusantium ipsam beatae vitae provident!</p>
+                <p><span className='grn-content'>Hello, I’m a Vedant, Frontend Developer</span> based on Lucknow, India.
+                  I have rich experience in web site design & building
+                  and customization. Also I am good at <span className='grn-content'>HTMl, CSS/SCSS, Javascript,
+                    Wordpress, jQuery, Bootstrap, Photoshop.</span></p>
               </div>
               <div className="experience-grid">
                 <div className="experience-grid-items">
                   <div className="card">
                     <FaAward />
-                    <h6></h6>
+                    <h6 className="duration">4<sup>+</sup> years</h6>
                     <div className="content-para">
                       <p>Expereince</p>
                     </div>
@@ -34,7 +36,7 @@ const About = () => {
                 <div className="experience-grid-items">
                   <div className="card">
                     <FaAward />
-                    <h6></h6>
+                    <h6 className="duration">4<sup>+</sup> years</h6>
                     <div className="content-para">
                       <p>Expereince</p>
                     </div>
@@ -43,7 +45,7 @@ const About = () => {
                 <div className="experience-grid-items">
                   <div className="card">
                     <FaAward />
-                    <h6></h6>
+                    <h6 className="duration">4<sup>+</sup> years</h6>
                     <div className="content-para">
                       <p>Expereince</p>
                     </div>
