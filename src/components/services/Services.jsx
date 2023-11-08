@@ -16,7 +16,7 @@ const Services = () => {
               <FiUsers />
               <h2 className="secondaryHeading">Website Design</h2>
               <div className="content-para">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sit amet consectetur, adipisicing elit. </p>
+                <p>We bring your online vision to life by designing very user friendly Website for our clients which are aalso flexible for any device around the World.</p>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Services = () => {
               <FiUsers />
               <h2 className="secondaryHeading">Web Development</h2>
               <div className="content-para">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sit amet consectetur, adipisicing elit. </p>
+                <p>Our skilled team creates visually captivating websites that leave a lasting impression on your audience. With custom development and functionality. </p>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Services = () => {
               <FiUsers />
               <h2 className="secondaryHeading">Graphic Design</h2>
               <div className="content-para">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sit amet consectetur, adipisicing elit. </p>
+                <p>We have also a team of very creative mind graphics team which design like graphics are telling that for what they are designed.</p>
               </div>
             </div>
           </div>
