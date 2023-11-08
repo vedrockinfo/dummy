@@ -3,7 +3,7 @@ nav{
     background: rgba(0, 0, 0, 0.3);
     max-width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 1.7rem 2rem;
     position: fixed;
     z-index: 2;
     left: 50%;
@@ -23,13 +23,24 @@ nav{
         display: flex;
         color: $colorLight;
         font-size: 1.2rem;
+        position: relative;
+        span{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-50%) translateY(20px);
+            font-size: 11px;
+            text-transform: uppercase;
+        }
         &:hover{
             background: rgba(0, 0, 0, 0.3);
         }
     }
     .active{
-        background: $colorBG;
-        color: $colorWhite;
+        color: $colorPrimary;
+        span{
+            color: $colorPrimary;
+        }
     }
 }
 .topHeader{

@@ -560,7 +560,7 @@ nav {
   max-width: -moz-max-content;
   max-width: max-content;
   display: block;
-  padding: 0.7rem 1.7rem;
+  padding: 0.7rem 1.7rem 2rem;
   position: fixed;
   z-index: 2;
   left: 50%;
@@ -584,13 +584,24 @@ nav a {
   display: flex;
   color: rgba(255, 255, 255, 0.6);
   font-size: 1.2rem;
+  position: relative;
+}
+nav a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(20px);
+  font-size: 11px;
+  text-transform: uppercase;
 }
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 nav .active {
-  background: #303236;
-  color: #ffffff;
+  color: #62c557;
+}
+nav .active span {
+  color: #62c557;
 }
 
 .topHeader .container {
