@@ -579,12 +579,17 @@ nav {
 }
 nav a {
   background: transparent;
-  padding: 0.9rem;
+  padding: 0.5rem 1.1rem;
   border-radius: 50%;
   display: flex;
   color: rgba(255, 255, 255, 0.6);
   font-size: 1.2rem;
   position: relative;
+}
+@media screen and (min-width: 768px) {
+  nav a {
+    padding: 0.9rem 1.3rem;
+  }
 }
 nav a span {
   position: absolute;
