@@ -16,7 +16,7 @@ const Services = () => {
               <FiUsers />
               <h2 className="secondaryHeading">Website Design</h2>
               <div className="content-para">
-                <p>We bring your online vision to life by designing very user friendly Website for our clients which are aalso flexible for any device around the World.</p>
+                <p>We bring your online vision to life by designing very user friendly Website for our clients which are also flexible for any device around the World.</p>
               </div>
             </div>
           </div>
