@@ -25,7 +25,7 @@
                 height: 100%;
             }
             .highlights{
-                bottom: 2rem;
+                bottom: 0;
                 opacity: 1;
                 visibility: visible;
             }
@@ -46,7 +46,7 @@
         }
         .highlights {
     position: absolute;
-    bottom: -20%;
+    bottom: 0;
     left: 0;
     opacity: 0;
     visibility: hidden;

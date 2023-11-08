@@ -720,7 +720,7 @@ nav .active span {
   height: 100%;
 }
 .projectGrid__Projects:hover .highlights {
-  bottom: 2rem;
+  bottom: 0;
   opacity: 1;
   visibility: visible;
 }
@@ -740,7 +740,7 @@ nav .active span {
 }
 .projectGrid__Projects .highlights {
   position: absolute;
-  bottom: -20%;
+  bottom: 0;
   left: 0;
   opacity: 0;
   visibility: hidden;
