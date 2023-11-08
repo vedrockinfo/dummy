@@ -34,7 +34,7 @@ const Services = () => {
               <FiUsers />
               <h2 className="secondaryHeading">Graphic Design</h2>
               <div className="content-para">
-                <p>We have also a team of very creative mind graphics team which design like graphics are telling that for what they are designed.</p>
+                <p>We have a very dedicated team of creative mind graphics which design like graphics are telling that for what they are designed by by implementing their creativity.</p>
               </div>
             </div>
           </div>
