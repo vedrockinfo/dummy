@@ -417,8 +417,10 @@ a.btn-one:hover {
     top: -30px;
   }
 }
-.footer .col-lg-6:last-child h2 {
-  margin-top: 3rem;
+@media (max-width: 768px) {
+  .footer .col-lg-6:last-child h2 {
+    margin-top: 3rem;
+  }
 }
 
 .footer-copyright {
@@ -579,7 +581,7 @@ nav {
 }
 nav a {
   background: transparent;
-  padding: 0.5rem 1.1rem;
+  padding: 0 1.1rem;
   border-radius: 50%;
   display: flex;
   color: rgba(255, 255, 255, 0.6);
@@ -588,7 +590,7 @@ nav a {
 }
 @media screen and (min-width: 768px) {
   nav a {
-    padding: 0.9rem 1.3rem;
+    padding: 0 1.3rem;
   }
 }
 nav a span {
@@ -598,6 +600,7 @@ nav a span {
   transform: translateX(-50%) translateY(20px);
   font-size: 11px;
   text-transform: uppercase;
+  font-weight: 600;
 }
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
@@ -720,6 +723,12 @@ nav .active span {
 .projectGrid__Projects {
   position: relative;
 }
+@media (max-width: 768px) {
+  .projectGrid__Projects {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+}
 .projectGrid__Projects:hover .ss::before {
   opacity: 1;
   height: 100%;
@@ -732,6 +741,11 @@ nav .active span {
 .projectGrid__Projects .ss {
   position: relative;
 }
+@media (max-width: 768px) {
+  .projectGrid__Projects .ss img {
+    border-radius: 10px 10px 0 0;
+  }
+}
 .projectGrid__Projects .ss::before {
   content: "";
   background: rgba(0, 0, 0, 0.7);
@@ -743,14 +757,22 @@ nav .active span {
   opacity: 0;
   transition: all 0.5s;
 }
-.projectGrid__Projects .highlights {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  padding: 0 1rem;
-  transition: all 0.5s;
+@media (max-width: 768px) {
+  .projectGrid__Projects .highlights {
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .projectGrid__Projects .highlights {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 1rem;
+    transition: all 0.5s;
+  }
 }
 .projectGrid__Projects .highlights h2.tertiaryHeading {
   font-size: 1.5rem;
@@ -758,9 +780,21 @@ nav .active span {
   color: #fff;
   font-weight: 700;
 }
+@media (max-width: 576px) {
+  .projectGrid__Projects .highlights h2.tertiaryHeading {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
 .projectGrid__Projects .highlights p {
   color: #fff;
   font-size: 1rem;
+}
+@media (max-width: 576px) {
+  .projectGrid__Projects .highlights p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
 }
 
 .tabs-container {
@@ -786,6 +820,11 @@ nav .active span {
   transition: 0.3s ease;
   background-color: #303236;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .tab {
+    padding: 7px 1rem;
+  }
 }
 
 .tab.active {
