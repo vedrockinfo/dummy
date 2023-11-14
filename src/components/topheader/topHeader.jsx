@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo.svg"
 
 const topHeader = () => {
   return (
     <div className='topHeader'>
       <div className='container topHeader__container'>
         <div className='topHeader__row'>
-            <div className='logo'>
-                <Link to="/"><img src={Logo} /></Link>
-            </div>
-            {/* <a className="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <div className='logo'>
+            <Link to="/"><img src={Logo} /></Link>
+          </div>
+          {/* <a className="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <span></span><span></span><span></span>
             </a>
 
