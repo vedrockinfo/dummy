@@ -204,6 +204,28 @@ a.btn-one:hover {
   font-size: 14px;
 }
 
+ul.primaryList {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+ul.primaryList {
+  padding: 0;
+  margin: 2rem 0 0 0;
+}
+ul.primaryList li {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+ul.primaryList li svg {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 18px;
+  color: #62c557;
+}
+
 .circular-grid {
   display: flex;
   flex-wrap: wrap;
