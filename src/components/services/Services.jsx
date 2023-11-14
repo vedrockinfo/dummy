@@ -3,7 +3,7 @@ import { FiUsers } from 'react-icons/fi';
 
 const Services = () => {
   return (
-    <section id='services' class="services mt-large">
+    <section id='services' className="services mt-large">
       <div className="container">
         <div className="our-heads">
           <h6 className="overlay-heading">services</h6>

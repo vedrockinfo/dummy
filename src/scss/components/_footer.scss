@@ -85,7 +85,9 @@
         }
         .col-lg-6:last-child{
             h2{
-                margin-top: 3rem;
+                @include DeviceMaximum768{
+                    margin-top: 3rem;
+                }
             }
         }
 }

@@ -16,21 +16,21 @@ const Footer = () => {
             <div className="footer-contact-grid">
               <div className="card-box">
                 <div className="icon"></div>
-                <div class="name">Call Us</div>
+                <div className="name">Call Us</div>
                 <div className="content-para">
                   <p><a href="tel:+917905359039">+91 7905 359 039</a></p>
                 </div>
               </div>
               <div className="card-box">
                 <div className="icon"></div>
-                <div class="name">Email Us</div>
+                <div className="name">Email Us</div>
                 <div className="content-para">
                   <p><a href="mailto:frontendesigner@gmail.com">frontendesigner@gmail.com</a></p>
                 </div>
               </div>
               <div className="card-box">
                 <div className="icon"></div>
-                <div class="name">Address</div>
+                <div className="name">Address</div>
                 <div className="content-para">
                   <p className='text-white'>Sector-C Jankipuram Lucknow, Uttar Pradesh, India<br />Pin Code - 226021</p>
                 </div>
