@@ -625,7 +625,7 @@ nav a span {
   font-weight: 600;
 }
 nav a:hover {
-  background: rgba(0, 0, 0, 0.3);
+  color: #62c557;
 }
 nav .active {
   color: #62c557;
