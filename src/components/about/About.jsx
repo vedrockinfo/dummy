@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className='about-me mt-large' id='about'>
       <div className="container">
-        <div className="row">
+        <div className="row align-items-end">
           <div className='col-md-6'>
             <img src={Vedant} alt="" className='img-fluid' />
           </div>
