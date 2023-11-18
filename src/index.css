@@ -157,9 +157,6 @@ a.btn-one:hover {
     margin-top: 0;
   }
 }
-.about-me .img-fluid {
-  max-height: 30rem;
-}
 @media (max-width: 768px) {
   .about-me .our-heads {
     margin-top: 3.5rem;
