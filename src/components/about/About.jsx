@@ -1,5 +1,5 @@
 import React from 'react';
-import Vedant from '../../assets/me-about.jpg';
+import Vedant from '../../assets/me-about.png';
 import { FaAward } from 'react-icons/fa';
 import { FaHandPointRight } from "react-icons/fa";
 import { SiTask } from "react-icons/si";
