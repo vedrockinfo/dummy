@@ -15,6 +15,7 @@ import Talwar from "../../assets/talwar-clinics.jpg";
 import Yabbit from "../../assets/yabbit.jpg";
 import SatoshiDX from "../../assets/vedant-project-05.jpg";
 import pdr from "../../assets/pdr.jpg";
+import Sky from "../../assets/skyhigh-01.jpg";
 
 
 const MyTabsComponent = () => {
@@ -123,6 +124,20 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://resonant-cuchufli-eae440.netlify.app/cis/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={Sky} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Sky High</h2>
+                      <p>Foundational Literacy and Numeracy</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://skyhigh-xi.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
