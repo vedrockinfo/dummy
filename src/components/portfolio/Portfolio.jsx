@@ -137,7 +137,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://skyhigh-xi.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://skyhigh-global.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
