@@ -17,6 +17,7 @@ import SatoshiDX from "../../assets/vedant-project-05.jpg";
 import pdr from "../../assets/pdr.jpg";
 import Sky from "../../assets/skyhigh-01.jpg";
 import Global from "../../assets/global.jpg"
+import DeviStatic from "../../assets/devi-static-01.jpg"
 
 
 const MyTabsComponent = () => {
@@ -149,6 +150,20 @@ const MyTabsComponent = () => {
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Global Classroom</h2>
                       <p>We At Global Classroom Aim To Bring Metamorphosis In Education Required Pan World</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://globalclassroom-ashy.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={Global} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Dignity Education Vision International (DEVI)</h2>
+                      <p>The groundbreaking Accelerating Learning for All program revolutionizes education through peer- and activity-based learning.</p>
                     </div>
                   </div>
                   <div className="explore">
