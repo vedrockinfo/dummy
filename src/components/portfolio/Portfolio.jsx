@@ -83,7 +83,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://www.dignityeducation.org/leadersconclave/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://leadersconclave.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -97,7 +97,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://www.dignityeducation.org/policymaker/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://policymakers.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -125,7 +125,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://resonant-cuchufli-eae440.netlify.app/cis/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://ciseducation.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
