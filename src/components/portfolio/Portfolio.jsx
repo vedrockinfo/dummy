@@ -4,7 +4,7 @@ import Bytescrum from "../../assets/bytescrum.jpg";
 import GoodX from "../../assets/10xgood.jpg";
 import Aspyra from "../../assets/aspyra.jpg";
 import DTW from "../../assets/day-trading-wars.jpg";
-import Devi from "../../assets/devi-sansthan.jpg";
+import literate from "../../assets/synnergy-summit3-0.jpg";
 import jtl from "../../assets/jtl.jpg";
 import LeaderConclave from "../../assets/leaderconclave.jpg";
 import palmax from "../../assets/palmax.jpg";
@@ -18,6 +18,7 @@ import pdr from "../../assets/pdr.jpg";
 import Sky from "../../assets/skyhigh-01.jpg";
 import Global from "../../assets/global.jpg"
 import DeviStatic from "../../assets/devi-static-01.jpg"
+import sunita from "../../assets/sunta-01.jpg"
 
 
 const MyTabsComponent = () => {
@@ -111,7 +112,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://www.dignityeducation.org/synergysummit/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://dignityeducation.org/synergysummit/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -167,7 +168,35 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://dignityeducation.org/devi" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://dignityeducation.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={sunita} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Sunita Gandhi Portfolio</h2>
+                      <p>Dr. Gandhi is a leading education researcher, author and activist.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://sunitagandhi.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={literate} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Synergy Summit 3.0</h2>
+                      <p>Host by World's Largest School, CMS, Lucknow</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://dignityeducation.org/synergysummit3.0/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
@@ -188,20 +217,6 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://aspyra.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={Devi} alt="" className="img-fluid" loading="lazy" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">Devi Sansthan</h2>
-                      <p>ALfA unlocks the power of paired learning, fun activities, and a known-to-unknown pedagogy.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="https://disruptiveliteracy.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
