@@ -19,6 +19,7 @@ import Sky from "../../assets/skyhigh-01.jpg";
 import Global from "../../assets/global.jpg"
 import DeviStatic from "../../assets/devi-static-01.jpg"
 import sunita from "../../assets/sunta-01.jpg"
+import globallearning from "../../assets/global-learning-lab-01.jpg"
 
 
 const MyTabsComponent = () => {
@@ -196,7 +197,21 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://dignityeducation.org/synergysummit3.0/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://globallearninglab.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={globallearning} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Glabal Learning Lab</h2>
+                      <p>Worldwide Spotlight on FLN Practices & Pioneering Research Discoveries</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://globallearninglab.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
@@ -217,20 +232,6 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://aspyra.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={jtl} alt="" className="img-fluid" loading="lazy" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">Jack Tars Locker</h2>
-                      <p>Much of my barefoot childhood was spent roaming around the Fremantle waterfront.</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="https://jacktarslocker.com.au/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -348,7 +349,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="dignityeducation.org" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://satoshidx.com/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
