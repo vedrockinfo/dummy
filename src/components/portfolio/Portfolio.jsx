@@ -17,6 +17,7 @@ import SatoshiDX from "../../assets/vedant-project-05.jpg";
 import pdr from "../../assets/pdr.jpg";
 import Sky from "../../assets/skyhigh-01.jpg";
 import Global from "../../assets/global.jpg"
+import GloClass from "../../assets/gloclass-01.jpg";
 import DeviStatic from "../../assets/devi-static-01.jpg"
 import sunita from "../../assets/sunta-01.jpg"
 import globallearning from "../../assets/global-learning-lab-01.jpg"
@@ -142,6 +143,20 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://skyhigh-global.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={GloClass} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Gloclass</h2>
+                      <p>Lead Change In Education. Make World A Better Place.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://glo-class-com.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
