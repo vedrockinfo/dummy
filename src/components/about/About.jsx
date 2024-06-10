@@ -37,7 +37,7 @@ const About = () => {
                 <div className="experience-grid-items">
                   <div className="card">
                     <FaAward />
-                    <h6 className="duration">4<sup>+</sup> years</h6>
+                    <h6 className="duration">5<sup>+</sup> years</h6>
                     <div className="content-para">
                       <p>Expereince</p>
                     </div>
