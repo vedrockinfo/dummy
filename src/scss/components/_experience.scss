@@ -1,29 +1,27 @@
 .circular-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   @media screen and (max-width:1199.9px) {
     gap: 2rem;
   }
   .circular-counter{
-    flex: 0 0 calc(100% / 6 - 3rem);
-    max-width: calc(100% / 6 - 3rem);
+    // flex: 0 0 calc(100% / 6 - 3rem);
+    // max-width: calc(100% / 6 - 3rem);
     @include DeviceMaximum1024{
       text-align: -webkit-center;
     }
-    @media screen and (min-width:768.1px) and (max-width:1199.9px) {
-      flex: 0 0 calc(100% / 3 - 2rem);
-    max-width: calc(100% / 3 - 2rem);
-    }
-    @media screen and (min-width:576px) and (max-width:768.9px) {
-      flex: 0 0 calc(100% / 2 - 2rem);
-    max-width: calc(100% / 2 - 2rem);
-    }
-    @media screen and (max-width:575.5px) {
-      flex: 0 0 calc(100% - 2rem);
-    max-width: calc(100% - 2rem);
-    }
+    // @media screen and (min-width:768.1px) and (max-width:1199.9px) {
+    //   flex: 0 0 calc(100% / 3 - 2rem);
+    // max-width: calc(100% / 3 - 2rem);
+    // }
+    // @media screen and (min-width:576px) and (max-width:768.9px) {
+    //   flex: 0 0 calc(100% / 2 - 2rem);
+    // max-width: calc(100% / 2 - 2rem);
+    // }
+    // @media screen and (max-width:575.5px) {
+    //   flex: 0 0 calc(100% - 2rem);
+    // max-width: calc(100% - 2rem);
+    // }
     &:nth-child(1){
       .circle-mask{
         background: conic-gradient(from 0deg,$colorPrimary 0%, $colorPrimary 0% 80%, rgba($colorWhite, 0.05) 80%, rgba($colorWhite, 0.05) 100%);

@@ -72,8 +72,7 @@ const About = () => {
             <div className="space-one"></div>
           </div>
           <div className="content-para text-center">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint corrupti, laborum, odit nemo quis a quas rem tenetur, dolor eveniet? Ipsa suscipit officia doloremque sit eaque. Quaerat, delectus minima.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi accusantium ipsam beatae vitae provident!</p>
+            <p>Experience prompt, professional service tailored to your needs. From start to finish, we’re dedicated to delivering quality and exceeding expectations. Ready to serve you with excellence—your satisfaction is our priority.</p>
           </div>
           <CircularCounter maxValue={100} animationDuration={1000} />
         </div>

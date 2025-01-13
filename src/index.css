@@ -234,26 +234,26 @@ ul.primaryList li svg {
 }
 
 .circular-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
   margin-top: 3rem;
+  row-gap: 2rem;
 }
 @media screen and (max-width: 1199.9px) {
   .circular-grid {
     gap: 2rem;
   }
 }
-.circular-grid .circular-counter {
+/* .circular-grid .circular-counter {
   flex: 0 0 calc(16.6666666667% - 3rem);
   max-width: calc(16.6666666667% - 3rem);
-}
+} */
 @media (max-width: 1024px) {
   .circular-grid .circular-counter {
     text-align: -webkit-center;
   }
 }
-@media screen and (min-width: 768.1px) and (max-width: 1199.9px) {
+/* @media screen and (min-width: 768.1px) and (max-width: 1199.9px) {
   .circular-grid .circular-counter {
     flex: 0 0 calc(33.3333333333% - 2rem);
     max-width: calc(33.3333333333% - 2rem);
@@ -270,7 +270,7 @@ ul.primaryList li svg {
     flex: 0 0 calc(100% - 2rem);
     max-width: calc(100% - 2rem);
   }
-}
+} */
 .circular-grid .circular-counter:nth-child(1) .circle-mask {
   background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 80%, rgba(255, 255, 255, 0.05) 80%, rgba(255, 255, 255, 0.05) 100%);
 }
@@ -288,6 +288,12 @@ ul.primaryList li svg {
 }
 .circular-grid .circular-counter:nth-child(6) .circle-mask {
   background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 70%, rgba(255, 255, 255, 0.05) 70%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(7) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 100%);
+}
+.circular-grid .circular-counter:nth-child(8) .circle-mask {
+  background: conic-gradient(from 0deg, #62c557 0%, #62c557 0% 60%, rgba(255, 255, 255, 0.05) 60%, rgba(255, 255, 255, 0.05) 100%);
 }
 .circular-grid .circular-counter .circle-mask {
   position: relative;

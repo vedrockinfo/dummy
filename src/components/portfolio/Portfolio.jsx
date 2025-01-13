@@ -180,7 +180,7 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Dignity Education Vision International (DEVI)</h2>
-                      <p>The groundbreaking Accelerating Learning for All program revolutionizes education through peer- and activity-based learning.</p>
+                     
                     </div>
                   </div>
                   <div className="explore">

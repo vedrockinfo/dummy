@@ -40,6 +40,18 @@ const CircularCounter = () => {
                     <span className="circular-skills">PhotoShop</span>
                 </div>
             </div>
+            <div className="circular-counter">
+                <div className="circle-mask">
+                    <div className="rating"><h2>50<span>%</span></h2></div>
+                    <span className="circular-skills">Angular</span>
+                </div>
+            </div>
+            <div className="circular-counter">
+                <div className="circle-mask">
+                    <div className="rating"><h2>60<span>%</span></h2></div>
+                    <span className="circular-skills">JavaScript</span>
+                </div>
+            </div>
         </div>
     );
 };
