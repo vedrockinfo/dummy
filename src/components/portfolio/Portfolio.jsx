@@ -5,7 +5,7 @@ import GoodX from "../../assets/10xgood.jpg";
 import Aspyra from "../../assets/aspyra.jpg";
 import DTW from "../../assets/day-trading-wars.jpg";
 import literate from "../../assets/synnergy-summit3-0.jpg";
-import jtl from "../../assets/jtl.jpg";
+import dignityinternational from "../../assets/dignityinternational.jpg";
 import LeaderConclave from "../../assets/leaderconclave.jpg";
 import palmax from "../../assets/palmax.jpg";
 import policymakers from "../../assets/policymakers.jpg";
@@ -106,7 +106,7 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
-                      <img src={synnergy} alt="" className="img-fluid" loading="lazy" />
+                      <img src={literate} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Synergy Summit</h2>
@@ -114,7 +114,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://dignityeducation.org/synergysummit/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://synergysummit.netlify.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -212,7 +212,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://dignityeducation.org/synergysummit3.0/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://worldsynergysummit.netlify.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -221,12 +221,26 @@ const MyTabsComponent = () => {
                       <img src={globallearning} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">Glabal Learning Lab</h2>
+                      <h2 className="tertiaryHeading">Global Learning Lab</h2>
                       <p>Worldwide Spotlight on FLN Practices & Pioneering Research Discoveries</p>
                     </div>
                   </div>
                   <div className="explore">
                     <a href="https://globallearninglab.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={dignityinternational} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Dignity International</h2>
+                      <p>A World Where Every Child and Adult Knows How to Read!</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://dignityinternational.netlify.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
               </div>
